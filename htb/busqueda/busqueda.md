@@ -1,5 +1,4 @@
 # Busqueda
-<style>h1,h2,h3,h4 { border-bottom: 0; } img {margin:20px}</style>
 #### _June 30th 2023_
 
 #### Difficulty: <span style="color:green">Easy</span>
