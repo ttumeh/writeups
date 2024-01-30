@@ -21,7 +21,7 @@ The next step was to try some default ssh credentials, which did not work. I was
 
 <img src="images/whatweb.png">
 
-The scan revealed that the web server is using php8.1.0-dev. After a quick google search I found a RCE PoC <a href=https://www.exploit-db.com/exploits/49933>here</a>. Background info about this vulnerability can be found <a href="https://flast101.github.io/php-8.1.0-dev-backdoor-rce/">here</a>. The however PoC did not give me full TTY access and therefore I used burp to craft a request to establish connection with netcat: 
+The scan revealed that the web server is using php8.1.0-dev. After a quick google search I found a RCE PoC <a href=https://www.exploit-db.com/exploits/49933>here</a>. Background info about this vulnerability can be found <a href="https://flast101.github.io/php-8.1.0-dev-backdoor-rce/">here</a>. However, the PoC did not give me full TTY access and therefore I used burp to craft a request to establish connection with netcat: 
 
 <img src="images/nc.png">
 
